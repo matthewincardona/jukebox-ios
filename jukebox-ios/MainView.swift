@@ -10,6 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        // show login view if no platform is logged into already
+        PlatformLoginView()
+        
         TabView {
             QueueView()
                 .tabItem {

@@ -18,6 +18,7 @@
 		DE0223512BE3DA86009F1808 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223502BE3DA86009F1808 /* QRCodeView.swift */; };
 		DE0223532BE3DA99009F1808 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223522BE3DA99009F1808 /* QueueView.swift */; };
 		DE0223552BE3DCB3009F1808 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223542BE3DCB3009F1808 /* MainView.swift */; };
+		DE6E65F62BE3DFD500C192D5 /* PlatformLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E65F52BE3DFD500C192D5 /* PlatformLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DE0223502BE3DA86009F1808 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		DE0223522BE3DA99009F1808 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
 		DE0223542BE3DCB3009F1808 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DE6E65F52BE3DFD500C192D5 /* PlatformLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				DE0223522BE3DA99009F1808 /* QueueView.swift */,
 				DE02234C2BE3DA64009F1808 /* SettingsView.swift */,
 				DE0223542BE3DCB3009F1808 /* MainView.swift */,
+				DE6E65F52BE3DFD500C192D5 /* PlatformLoginView.swift */,
 				DE0223502BE3DA86009F1808 /* QRCodeView.swift */,
 				DE0223242BE3D996009F1808 /* Assets.xcassets */,
 				DE0223262BE3D996009F1808 /* Preview Content */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6E65F62BE3DFD500C192D5 /* PlatformLoginView.swift in Sources */,
 				DE02234D2BE3DA64009F1808 /* SettingsView.swift in Sources */,
 				DE0223552BE3DCB3009F1808 /* MainView.swift in Sources */,
 				DE0223512BE3DA86009F1808 /* QRCodeView.swift in Sources */,
