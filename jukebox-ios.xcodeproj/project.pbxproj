@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0223212BE3D994009F1808 /* jukebox_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223202BE3D994009F1808 /* jukebox_iosApp.swift */; };
+		DE0223252BE3D996009F1808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0223242BE3D996009F1808 /* Assets.xcassets */; };
+		DE0223282BE3D996009F1808 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0223272BE3D996009F1808 /* Preview Assets.xcassets */; };
+		DE0223322BE3D996009F1808 /* jukebox_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223312BE3D996009F1808 /* jukebox_iosTests.swift */; };
+		DE02233C2BE3D996009F1808 /* jukebox_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02233B2BE3D996009F1808 /* jukebox_iosUITests.swift */; };
+		DE02233E2BE3D996009F1808 /* jukebox_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02233D2BE3D996009F1808 /* jukebox_iosUITestsLaunchTests.swift */; };
+		DE02234B2BE3DA4A009F1808 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02234A2BE3DA4A009F1808 /* QRCodeGenerator.swift */; };
+		DE02234D2BE3DA64009F1808 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02234C2BE3DA64009F1808 /* SettingsView.swift */; };
+		DE0223512BE3DA86009F1808 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223502BE3DA86009F1808 /* QRCodeView.swift */; };
+		DE0223532BE3DA99009F1808 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223522BE3DA99009F1808 /* QueueView.swift */; };
+		DE0223552BE3DCB3009F1808 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223542BE3DCB3009F1808 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE02232E2BE3D996009F1808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0223152BE3D994009F1808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE02231C2BE3D994009F1808;
+			remoteInfo = "jukebox-ios";
+		};
+		DE0223382BE3D996009F1808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0223152BE3D994009F1808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE02231C2BE3D994009F1808;
+			remoteInfo = "jukebox-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE02231D2BE3D994009F1808 /* jukebox-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jukebox-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0223202BE3D994009F1808 /* jukebox_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox_iosApp.swift; sourceTree = "<group>"; };
+		DE0223242BE3D996009F1808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0223272BE3D996009F1808 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE02232D2BE3D996009F1808 /* jukebox-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jukebox-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0223312BE3D996009F1808 /* jukebox_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox_iosTests.swift; sourceTree = "<group>"; };
+		DE0223372BE3D996009F1808 /* jukebox-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jukebox-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE02233B2BE3D996009F1808 /* jukebox_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox_iosUITests.swift; sourceTree = "<group>"; };
+		DE02233D2BE3D996009F1808 /* jukebox_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE02234A2BE3DA4A009F1808 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		DE02234C2BE3DA64009F1808 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DE0223502BE3DA86009F1808 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		DE0223522BE3DA99009F1808 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		DE0223542BE3DCB3009F1808 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE02231A2BE3D994009F1808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE02232A2BE3D996009F1808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0223342BE3D996009F1808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0223142BE3D994009F1808 = {
+			isa = PBXGroup;
+			children = (
+				DE02231F2BE3D994009F1808 /* jukebox-ios */,
+				DE0223302BE3D996009F1808 /* jukebox-iosTests */,
+				DE02233A2BE3D996009F1808 /* jukebox-iosUITests */,
+				DE02231E2BE3D994009F1808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE02231E2BE3D994009F1808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE02231D2BE3D994009F1808 /* jukebox-ios.app */,
+				DE02232D2BE3D996009F1808 /* jukebox-iosTests.xctest */,
+				DE0223372BE3D996009F1808 /* jukebox-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE02231F2BE3D994009F1808 /* jukebox-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DE0223202BE3D994009F1808 /* jukebox_iosApp.swift */,
+				DE02234A2BE3DA4A009F1808 /* QRCodeGenerator.swift */,
+				DE0223522BE3DA99009F1808 /* QueueView.swift */,
+				DE02234C2BE3DA64009F1808 /* SettingsView.swift */,
+				DE0223542BE3DCB3009F1808 /* MainView.swift */,
+				DE0223502BE3DA86009F1808 /* QRCodeView.swift */,
+				DE0223242BE3D996009F1808 /* Assets.xcassets */,
+				DE0223262BE3D996009F1808 /* Preview Content */,
+			);
+			path = "jukebox-ios";
+			sourceTree = "<group>";
+		};
+		DE0223262BE3D996009F1808 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE0223272BE3D996009F1808 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE0223302BE3D996009F1808 /* jukebox-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0223312BE3D996009F1808 /* jukebox_iosTests.swift */,
+			);
+			path = "jukebox-iosTests";
+			sourceTree = "<group>";
+		};
+		DE02233A2BE3D996009F1808 /* jukebox-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE02233B2BE3D996009F1808 /* jukebox_iosUITests.swift */,
+				DE02233D2BE3D996009F1808 /* jukebox_iosUITestsLaunchTests.swift */,
+			);
+			path = "jukebox-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE02231C2BE3D994009F1808 /* jukebox-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0223412BE3D996009F1808 /* Build configuration list for PBXNativeTarget "jukebox-ios" */;
+			buildPhases = (
+				DE0223192BE3D994009F1808 /* Sources */,
+				DE02231A2BE3D994009F1808 /* Frameworks */,
+				DE02231B2BE3D994009F1808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jukebox-ios";
+			productName = "jukebox-ios";
+			productReference = DE02231D2BE3D994009F1808 /* jukebox-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE02232C2BE3D996009F1808 /* jukebox-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0223442BE3D996009F1808 /* Build configuration list for PBXNativeTarget "jukebox-iosTests" */;
+			buildPhases = (
+				DE0223292BE3D996009F1808 /* Sources */,
+				DE02232A2BE3D996009F1808 /* Frameworks */,
+				DE02232B2BE3D996009F1808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE02232F2BE3D996009F1808 /* PBXTargetDependency */,
+			);
+			name = "jukebox-iosTests";
+			productName = "jukebox-iosTests";
+			productReference = DE02232D2BE3D996009F1808 /* jukebox-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0223362BE3D996009F1808 /* jukebox-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0223472BE3D996009F1808 /* Build configuration list for PBXNativeTarget "jukebox-iosUITests" */;
+			buildPhases = (
+				DE0223332BE3D996009F1808 /* Sources */,
+				DE0223342BE3D996009F1808 /* Frameworks */,
+				DE0223352BE3D996009F1808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0223392BE3D996009F1808 /* PBXTargetDependency */,
+			);
+			name = "jukebox-iosUITests";
+			productName = "jukebox-iosUITests";
+			productReference = DE0223372BE3D996009F1808 /* jukebox-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0223152BE3D994009F1808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DE02231C2BE3D994009F1808 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DE02232C2BE3D996009F1808 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DE02231C2BE3D994009F1808;
+					};
+					DE0223362BE3D996009F1808 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DE02231C2BE3D994009F1808;
+					};
+				};
+			};
+			buildConfigurationList = DE0223182BE3D994009F1808 /* Build configuration list for PBXProject "jukebox-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0223142BE3D994009F1808;
+			productRefGroup = DE02231E2BE3D994009F1808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE02231C2BE3D994009F1808 /* jukebox-ios */,
+				DE02232C2BE3D996009F1808 /* jukebox-iosTests */,
+				DE0223362BE3D996009F1808 /* jukebox-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE02231B2BE3D994009F1808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0223282BE3D996009F1808 /* Preview Assets.xcassets in Resources */,
+				DE0223252BE3D996009F1808 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE02232B2BE3D996009F1808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0223352BE3D996009F1808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0223192BE3D994009F1808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE02234D2BE3DA64009F1808 /* SettingsView.swift in Sources */,
+				DE0223552BE3DCB3009F1808 /* MainView.swift in Sources */,
+				DE0223512BE3DA86009F1808 /* QRCodeView.swift in Sources */,
+				DE0223212BE3D994009F1808 /* jukebox_iosApp.swift in Sources */,
+				DE0223532BE3DA99009F1808 /* QueueView.swift in Sources */,
+				DE02234B2BE3DA4A009F1808 /* QRCodeGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0223292BE3D996009F1808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0223322BE3D996009F1808 /* jukebox_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0223332BE3D996009F1808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE02233C2BE3D996009F1808 /* jukebox_iosUITests.swift in Sources */,
+				DE02233E2BE3D996009F1808 /* jukebox_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE02232F2BE3D996009F1808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE02231C2BE3D994009F1808 /* jukebox-ios */;
+			targetProxy = DE02232E2BE3D996009F1808 /* PBXContainerItemProxy */;
+		};
+		DE0223392BE3D996009F1808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE02231C2BE3D994009F1808 /* jukebox-ios */;
+			targetProxy = DE0223382BE3D996009F1808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE02233F2BE3D996009F1808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0223402BE3D996009F1808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0223422BE3D996009F1808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jukebox-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.jukebox-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0223432BE3D996009F1808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jukebox-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.jukebox-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0223452BE3D996009F1808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.jukebox-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jukebox-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jukebox-ios";
+			};
+			name = Debug;
+		};
+		DE0223462BE3D996009F1808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.jukebox-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jukebox-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jukebox-ios";
+			};
+			name = Release;
+		};
+		DE0223482BE3D996009F1808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.jukebox-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jukebox-ios";
+			};
+			name = Debug;
+		};
+		DE0223492BE3D996009F1808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.jukebox-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jukebox-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0223182BE3D994009F1808 /* Build configuration list for PBXProject "jukebox-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE02233F2BE3D996009F1808 /* Debug */,
+				DE0223402BE3D996009F1808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0223412BE3D996009F1808 /* Build configuration list for PBXNativeTarget "jukebox-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0223422BE3D996009F1808 /* Debug */,
+				DE0223432BE3D996009F1808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0223442BE3D996009F1808 /* Build configuration list for PBXNativeTarget "jukebox-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0223452BE3D996009F1808 /* Debug */,
+				DE0223462BE3D996009F1808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0223472BE3D996009F1808 /* Build configuration list for PBXNativeTarget "jukebox-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0223482BE3D996009F1808 /* Debug */,
+				DE0223492BE3D996009F1808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0223152BE3D994009F1808 /* Project object */;
+}
