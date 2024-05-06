@@ -18,8 +18,8 @@
 		DE0223512BE3DA86009F1808 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223502BE3DA86009F1808 /* QRCodeView.swift */; };
 		DE0223532BE3DA99009F1808 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223522BE3DA99009F1808 /* QueueView.swift */; };
 		DE0223552BE3DCB3009F1808 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0223542BE3DCB3009F1808 /* MainView.swift */; };
-		DE2ED29E2BE52059006EB68D /* SpotifyAuthorizationUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2ED29D2BE52059006EB68D /* SpotifyAuthorizationUtilities.swift */; };
 		DE2ED2A02BE52112006EB68D /* SpotifySearchUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2ED29F2BE52112006EB68D /* SpotifySearchUtilities.swift */; };
+		DE2ED2A62BE87642006EB68D /* SpotifyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2ED2A52BE87642006EB68D /* SpotifyApi.swift */; };
 		DE6E65F62BE3DFD500C192D5 /* PlatformLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E65F52BE3DFD500C192D5 /* PlatformLoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +55,9 @@
 		DE0223502BE3DA86009F1808 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		DE0223522BE3DA99009F1808 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
 		DE0223542BE3DCB3009F1808 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		DE2ED29D2BE52059006EB68D /* SpotifyAuthorizationUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthorizationUtilities.swift; sourceTree = "<group>"; };
 		DE2ED29F2BE52112006EB68D /* SpotifySearchUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySearchUtilities.swift; sourceTree = "<group>"; };
+		DE2ED2A42BE873D2006EB68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DE2ED2A52BE87642006EB68D /* SpotifyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyApi.swift; sourceTree = "<group>"; };
 		DE6E65F52BE3DFD500C192D5 /* PlatformLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,13 +109,14 @@
 		DE02231F2BE3D994009F1808 /* jukebox-ios */ = {
 			isa = PBXGroup;
 			children = (
+				DE2ED2A42BE873D2006EB68D /* Info.plist */,
 				DE0223202BE3D994009F1808 /* jukebox_iosApp.swift */,
 				DE02234A2BE3DA4A009F1808 /* QRCodeGenerator.swift */,
 				DE0223522BE3DA99009F1808 /* QueueView.swift */,
+				DE2ED2A52BE87642006EB68D /* SpotifyApi.swift */,
 				DE02234C2BE3DA64009F1808 /* SettingsView.swift */,
 				DE0223542BE3DCB3009F1808 /* MainView.swift */,
 				DE6E65F52BE3DFD500C192D5 /* PlatformLoginView.swift */,
-				DE2ED29D2BE52059006EB68D /* SpotifyAuthorizationUtilities.swift */,
 				DE2ED29F2BE52112006EB68D /* SpotifySearchUtilities.swift */,
 				DE0223502BE3DA86009F1808 /* QRCodeView.swift */,
 				DE0223242BE3D996009F1808 /* Assets.xcassets */,
@@ -286,10 +288,10 @@
 				DE0223552BE3DCB3009F1808 /* MainView.swift in Sources */,
 				DE0223512BE3DA86009F1808 /* QRCodeView.swift in Sources */,
 				DE2ED2A02BE52112006EB68D /* SpotifySearchUtilities.swift in Sources */,
-				DE2ED29E2BE52059006EB68D /* SpotifyAuthorizationUtilities.swift in Sources */,
 				DE0223212BE3D994009F1808 /* jukebox_iosApp.swift in Sources */,
 				DE0223532BE3DA99009F1808 /* QueueView.swift in Sources */,
 				DE02234B2BE3DA4A009F1808 /* QRCodeGenerator.swift in Sources */,
+				DE2ED2A62BE87642006EB68D /* SpotifyApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +457,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"jukebox-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "jukebox-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -483,6 +486,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"jukebox-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "jukebox-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
