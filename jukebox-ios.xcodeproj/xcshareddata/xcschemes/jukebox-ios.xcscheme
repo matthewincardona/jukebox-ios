@@ -75,12 +75,12 @@
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
-            key = "clientId"
+            key = "SPOTIFY_CLIENT_ID"
             value = "aa7f289a5753405f9f9cc921f6945984"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
-            key = "clientSecret"
+            key = "SPOTIFY_CLIENT_SECRET"
             value = "03ec3faed0364e75aba20a5924e8bbee"
             isEnabled = "YES">
          </EnvironmentVariable>

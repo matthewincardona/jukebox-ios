@@ -12,12 +12,16 @@ struct ContentView: View {
     var body: some View {
         
         // show login view if no platform is logged into already
-        PlatformLoginView()
+//        PlatformLoginView()
         
         TabView {
             QueueView()
                 .tabItem {
                     Label("Queue", systemImage: "music.note.list")
+                }
+            SongRequestsView()
+                .tabItem {
+                    Label("Requests", systemImage: "message")
                 }
             QRCodeView()
                 .tabItem {
@@ -30,6 +34,7 @@ struct ContentView: View {
         }
     }
 }
+
 
 #Preview {
     ContentView()
